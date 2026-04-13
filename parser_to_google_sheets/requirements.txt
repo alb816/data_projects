@@ -1,0 +1,7 @@
+requests 
+Beautifulsoup4
+pandas
+gspread
+schedule
+logging
+time
