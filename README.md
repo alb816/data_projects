@@ -5,7 +5,7 @@
 
 ### Projects
 
-- **Product Catalog Scraper**  
+- **Product Catalog Scraper:**  
   Парсинг каталога товаров, сохранение в MySQL и расчёт средней цены по категориям с экспортом в CSV.
-- **Parser to Google Sheets**
+- **Parser to Google Sheets:**
   Парсинг товаров, сохранение в Google Sheets c последующим анализом цен.
