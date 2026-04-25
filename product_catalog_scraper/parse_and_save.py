@@ -97,6 +97,3 @@ def save_books_to_db(BASE_URL):
     
     print(f"Успешно сохранено {len(books_to_save)} книг.")
     db_session.close()
-
-    
-# save_books_to_db(BASE_URL)
