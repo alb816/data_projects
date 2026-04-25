@@ -4,8 +4,14 @@
 
 ## Проекты
 
+### async_price_tracker
+Парсинг книг с сохранением БД (MySQL) 
+
 ### parser_to_google_sheets
 Парсинг сайта с выгрузкой в Google Sheets (gspread, pandas)
 
-- **Product Catalog Scraper**  
-  Парсинг каталога товаров, сохранение в MySQL и расчёт средней цены по категориям с экспортом в CSV.
+### product_catalog_scraper 
+Сбор и обработка данных каталога товаров с сохранением в базу данных
+
+### spares_catalog_parser
+Парсинг каталога товаров с сохранением в Excel таблицу

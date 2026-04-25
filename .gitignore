@@ -1,2 +1,3 @@
-.env
-parser_to_google_sheets/credentials.json
+product_catalog_scraper/.env
+async_price_tracker/.env
+parser_to_google_sheets/credentials.json 
