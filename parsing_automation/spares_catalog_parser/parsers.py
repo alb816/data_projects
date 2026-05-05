@@ -37,6 +37,7 @@ def get_value_by_param(soup, param_name):
 
 def parse_services(soup):
     rows = soup.find_all("tr")
+    
     services = []
 
     for row in rows:
@@ -82,13 +83,15 @@ def get_usability(soup):
     for row in rows:
         cols = row.find_all('td')
         if len(cols) == 6:
+            years_text = cols[5].get_text()
+            years_text = "".join(years_text.split())
             usability_list.append({
                 'brand': cols[0].get_text(strip=True),
                 'model': cols[1].get_text(strip=True),
                 'modification': cols[2].get_text(strip=True),
                 'engine': cols[3].get_text(strip=True),
                 'drive': cols[4].get_text(strip=True),
-                'years': cols[5].get_text(strip=True)
+                'years': years_text
             })
 
     return usability_list

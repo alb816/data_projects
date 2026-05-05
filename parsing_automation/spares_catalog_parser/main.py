@@ -26,14 +26,12 @@ def parse_page(url, parsed):
             "цена с учетом обмена": None,
             "цена без обмена": None
         }
-
         if page_type == "product":
             result.update(parse_product_prices(soup))
 
-        elif page_type == "services":
+        elif page_type == "предоставляемые услуги":
             services = parse_services(soup)
             result["предоставляемые услуги"] = json.dumps(services, ensure_ascii=False) if services else None
-
         return result
 
     except Exception:

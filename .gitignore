@@ -1,3 +1,4 @@
-product_catalog_scraper/.env
-async_price_tracker/.env
-parser_to_google_sheets/credentials.json 
+parsing_automation/product_catalog_scraper/.env
+parsing_automation/async_price_tracker/.env
+parsing_automation/parser_to_google_sheets/credentials.json 
+**/__pycache__/
